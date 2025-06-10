@@ -54,6 +54,7 @@ public class E2E extends BaseTest {
         ReusableMethods.wait(2);
 
         // sepeti onaylar
+
         // (bu adımı eğer var ise kodla ekle)
     }
 }
