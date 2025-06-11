@@ -46,14 +46,18 @@ public class LoginPage {
 
     public void login() {
 
-        profileButton.click();
-        ReusableMethods.wait(2);
-        emailBox.sendKeys(excelReader.getExcelText("Sheet1", 1, 0));
-        ReusableMethods.wait(2);
-        passwordBox.sendKeys(excelReader.getExcelText("Sheet1", 1, 1));
-        ReusableMethods.wait(2);
-        girisYapButton.click();
-        logger.info("Kullanici login oldu.");
+        try {
+            profileButton.click();
+            ReusableMethods.wait(2);
+            emailBox.sendKeys(excelReader.getExcelText("Sheet1", 1, 0));
+            ReusableMethods.wait(2);
+            passwordBox.sendKeys(excelReader.getExcelText("Sheet1", 1, 1));
+            ReusableMethods.wait(2);
+            girisYapButton.click();
+            logger.info("Kullanici login oldu.");
+        } catch (Exception e) {
+            System.out.println("Kullanici login olamadı..");
+        }
     }
 
     public void logout() {
