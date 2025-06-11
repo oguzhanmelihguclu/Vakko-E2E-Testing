@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.Assert;
 import utilities.ReusableMethods;
 import vakkoPages.HomePage;
 import vakkoPages.LoginPage;
@@ -26,6 +27,7 @@ public class E2E extends BaseTest {
 
         // kullanici anasayfayi acar
         homePage.goToHomePage();
+        homePage.isHomePageDisplayed();
 
         // kullanici login olur
         loginPage.login();
@@ -41,7 +43,7 @@ public class E2E extends BaseTest {
         // herhangi bir ürünü seçer
         productPage.selectRandomProduct();
 
-        // 36 numara beden seçer
+        // 38 numara beden seçer
         productPage.selectOtuzsekizNumaraBeden();
         ReusableMethods.wait(2);
 
@@ -53,8 +55,17 @@ public class E2E extends BaseTest {
         productPage.goToBasket();
         ReusableMethods.wait(2);
 
-        // sepeti onaylar
 
-        // (bu adımı eğer var ise kodla ekle)
+        // kullanici ürünün fiyatı ile sepetin fiyatını karsilastirir
+        String priceStr = productPage.getProductPrice();
+        double fiyat1 = productPage.parsePrice(priceStr);
+
+        String priceStr2 = productPage.getProductBasketPrice();
+        double fiyat2 = productPage.parsePrice(priceStr2);
+
+        Assert.assertEquals(fiyat1, fiyat2, 0.01); // 0.01 fark toleransı
+
+
+
     }
 }

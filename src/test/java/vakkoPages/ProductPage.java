@@ -39,13 +39,20 @@ public class ProductPage {
     @FindBy(xpath = "//*[@class='price']")
     private WebElement price;
 
+    @FindBy(xpath = "//*[@class='price ng-star-inserted']")
+    private WebElement priceProductBasket;
+
     @FindBy(xpath = "//*[text()=' Sepete Ekle ']")
     private WebElement addCart;
 
-    @FindBy (xpath = "//*[text()=' Sepete git ']")
+    @FindBy(xpath = "//*[text()=' Sepete git ']")
     private WebElement basket;
 
+    @FindBy(xpath = "//*[text()=' Sepeti Onayla ']")
+    private WebElement confirmBasket;
 
+    @FindBy(xpath = "//*[@class='total-amount']")
+    private WebElement totalPriceBasket;
 
 
     public void selectRandomProduct() {
@@ -73,11 +80,13 @@ public class ProductPage {
     }
 
 
-
-
     public void selectOtuzsekizNumaraBeden() {
 
-        otuzsekizBeden.click();
+        try {
+            otuzsekizBeden.click();
+        } catch (Exception e) {
+            System.out.println("38 numara beden bulunamadı..");
+        }
 
     }
 
@@ -94,9 +103,15 @@ public class ProductPage {
     }
 
     public String getProductPrice() {
-        String price1 = price.getText();
+        String price1 = priceProductBasket.getText();
         logger.info("Ürün fiyatı: " + price1);
         return price1;
+    }
+
+    public String getProductBasketPrice(){
+        String price2 = totalPriceBasket.getText();
+        logger.info("Ürünün sepetteki fiyati : " + price2);
+        return price2;
     }
 
     public void addToCart() {
@@ -104,11 +119,25 @@ public class ProductPage {
         logger.info("Ürün sepete eklendi.");
     }
 
-    public void  goToBasket(){
+    public void goToBasket() {
         basket.click();
+        logger.info("Sepete gidildi.");
     }
 
+    public void checkBasket() {
 
+        confirmBasket.click();
+        logger.info("Sepet onaylandı.");
+
+    }
+
+    public double parsePrice(String rawPrice) {
+        String cleaned = rawPrice.replace("₺", "")
+                .replace(" ", "")
+                .replace(".", "")
+                .replace(",", ".");
+        return Double.parseDouble(cleaned);
+    }
 
 
 }

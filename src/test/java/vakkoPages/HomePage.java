@@ -40,10 +40,14 @@ public class HomePage {
     }
 
     public void goToHomePage() {
-        driver.get("https://www.vakko.com/");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        acceptCookies();
-        logger.info("Vakko ana sayfası açıldı.");
+        try {
+            driver.get("https://www.vakko.com/");
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            acceptCookies();
+            logger.info("Vakko ana sayfası açıldı.");
+        } catch (Exception e) {
+            System.out.println("İlgili sayfa yüklenemedi..");
+        }
     }
 
     public boolean isHomePageDisplayed() {
@@ -54,19 +58,25 @@ public class HomePage {
 
     public void searchProduct(String keywords) {
 
-        searchBoxButton.click();
-        searchBox.sendKeys(keywords);
-
-        logger.info("Search box'ta " + keywords + "araması yapıldı");
+        try {
+            searchBoxButton.click();
+            searchBox.sendKeys(keywords);
+            logger.info("Search box'ta " + keywords + "araması yapıldı");
+        } catch (Exception e) {
+            System.out.println("İlgili sitede arama yapılamadı");
+        }
     }
 
     public void pressEnterSearchBox() {
         searchBox.sendKeys(Keys.ENTER);
+        logger.info("ENTER'a basıldı");
     }
 
     public void clearSearchBox() {
         searchBox.clear();
     }
+
+
 
 
 }

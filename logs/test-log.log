@@ -1,0 +1,94 @@
+2025-06-11 11:19:50 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 11:19:50 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:19:50 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 11:19:57 INFO  HomePage:57 - Kullanici login oldu.
+2025-06-11 11:20:08 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 11:20:08 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:20:08 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 11:20:08 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 11:20:11 INFO  ProductPage:70 - Random ürün seçiliyor. Index: 19
+2025-06-11 11:20:19 INFO  ProductPage:111 - Ürün sepete eklendi.
+2025-06-11 11:44:06 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 11:44:06 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:44:06 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 11:44:12 INFO  HomePage:57 - Kullanici login oldu.
+2025-06-11 11:44:23 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 11:44:23 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:44:23 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 11:44:23 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 11:44:54 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 11:44:54 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:44:54 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 11:45:04 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 11:45:04 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:45:05 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 11:45:05 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 11:45:08 INFO  ProductPage:74 - Random ürün seçiliyor. Index: 29
+2025-06-11 11:45:34 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 11:45:34 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:45:34 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 11:45:40 INFO  HomePage:57 - Kullanici login oldu.
+2025-06-11 11:45:51 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 11:45:51 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:45:52 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 11:45:52 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 11:45:55 INFO  ProductPage:74 - Random ürün seçiliyor. Index: 21
+2025-06-11 11:46:02 INFO  ProductPage:119 - Ürün sepete eklendi.
+2025-06-11 11:46:04 INFO  ProductPage:124 - Sepete gidildi.
+2025-06-11 11:47:57 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 11:47:57 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:47:57 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 11:48:04 INFO  HomePage:57 - Kullanici login oldu.
+2025-06-11 11:48:20 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 11:48:20 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 11:48:20 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 11:48:20 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 11:48:24 INFO  ProductPage:74 - Random ürün seçiliyor. Index: 41
+2025-06-11 11:48:31 INFO  ProductPage:119 - Ürün sepete eklendi.
+2025-06-11 11:48:33 INFO  ProductPage:124 - Sepete gidildi.
+2025-06-11 12:12:42 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 12:12:42 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 12:12:42 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 12:12:48 INFO  HomePage:57 - Kullanici login oldu.
+2025-06-11 12:13:00 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 12:13:00 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 12:13:00 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 12:13:00 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 12:13:03 INFO  ProductPage:74 - Random ürün seçiliyor. Index: 41
+2025-06-11 12:13:10 INFO  ProductPage:119 - Ürün sepete eklendi.
+2025-06-11 12:13:13 INFO  ProductPage:124 - Sepete gidildi.
+2025-06-11 12:13:15 INFO  ProductPage:107 - Ürün fiyatı: ₺ 31.950
+2025-06-11 12:17:55 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 12:17:55 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 12:17:55 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 12:18:02 INFO  HomePage:57 - Kullanici login oldu.
+2025-06-11 12:18:12 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 12:18:12 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 12:18:13 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 12:18:13 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 12:18:20 INFO  ProductPage:74 - Random ürün seçiliyor. Index: 14
+2025-06-11 12:18:45 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 12:18:45 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 12:18:45 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 12:18:52 INFO  HomePage:57 - Kullanici login oldu.
+2025-06-11 12:19:03 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 12:19:03 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 12:19:03 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 12:19:03 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 12:19:06 INFO  ProductPage:74 - Random ürün seçiliyor. Index: 0
+2025-06-11 12:19:13 INFO  ProductPage:119 - Ürün sepete eklendi.
+2025-06-11 12:19:15 INFO  ProductPage:124 - Sepete gidildi.
+2025-06-11 12:19:17 INFO  ProductPage:107 - Ürün fiyatı: ₺ 13.965
+2025-06-11 12:19:17 INFO  ProductPage:113 - Ürünün sepetteki fiyati : ₺ 13.965
+2025-06-11 12:27:03 INFO  HomePage:34 - Çerez bildirimi kabul edildi.
+2025-06-11 12:27:03 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 12:27:03 INFO  HomePage:55 - Ana sayfa doğrulaması yapıldı. Başlık sonucu: true
+2025-06-11 12:27:14 WARN  HomePage:36 - Çerez bildirimi bulunamadı veya zaten kapalı.
+2025-06-11 12:27:14 INFO  HomePage:47 - Vakko ana sayfası açıldı.
+2025-06-11 12:27:15 INFO  HomePage:64 - Search box'ta ayakkabıaraması yapıldı
+2025-06-11 12:27:15 INFO  HomePage:72 - ENTER'a basıldı
+2025-06-11 12:27:18 INFO  ProductPage:74 - Random ürün seçiliyor. Index: 23
+2025-06-11 12:27:26 INFO  ProductPage:119 - Ürün sepete eklendi.
+2025-06-11 12:27:28 INFO  ProductPage:124 - Sepete gidildi.
+2025-06-11 12:27:30 INFO  ProductPage:107 - Ürün fiyatı: ₺ 24.465
+2025-06-11 12:27:30 INFO  ProductPage:113 - Ürünün sepetteki fiyati : ₺ 24.465
